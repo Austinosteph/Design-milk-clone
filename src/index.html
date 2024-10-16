@@ -6,9 +6,9 @@
     <title>design-milky</title>
     <link rel="stylesheet" href="output.css">
 </head>
-<body class="relative">
+<body>
     <!--nav-bar-->
-    <header class="shadow-md fixed left-0 right-0 w-full space-x-10 px-20 py-3 z-50 bg-white">
+    <header class="shadow-sm fixed left-0 right-0 w-full space-x-10 px-20 py-3 z-50 bg-white">
         <div class="flex">
             <div class="lg:hidden mt-4 py-3 -ml-10 mr-10">
                 <button id="mobile-open" class="focus:outline-none text-2xl">&#9776</button>
@@ -25,15 +25,16 @@
     </header>
 
     <!--main-->
-    <main class="absolute top-20">
-        <div class="lg:flex-row gap-10 lg:flex p-10 md:sm:p-10 md:p-16 lg:p-16">    
+    <main class="absolute top-32">
+        <!--home page-->
+        <div class="lg:flex-row gap-10 lg:flex p-10 sm:p-10 md:p-16 lg:p-16">    
 
             <!--sm-->
             <div class="lg:hidden">
                 <div class="relative">
                     <div class="lg:hidden mb-5"><img src="asset/Yves-Salomon-Chapo-Collection-1-S31-Ottoman.jpg" class="md:w-full"></div>
                     <div class="absolute -bottom-2">
-                        <p class="border border-black bg-gray-100 font-normal px-7 p-1 ml-14 md:ml-48 custom-box-shadow">HOME FURNISHINGS</p>
+                        <p class="border border-black bg-gray-100 font-normal px-7 p-1 ml-20 md:ml-72 custom-box-shadow">HOME FURNISHINGS</p>
                     </div>
                 </div>
                 <div>
@@ -49,7 +50,7 @@
                     <div class="relative">
                         <div><img src="asset/Drape-Light-Moooi-Jamie-Wolfond.jpg" class="h-72 mb-5 md:h-96 md:w-full lg:w-96 lg:h-48"></div>
                         <div class="absolute -bottom-2">
-                            <p class="border border-black bg-gray-100 font-normal px-7 p-1 ml-14 md:ml-48 custom-box-shadow lg:ml-16">HOME FURNISHINGS</p>
+                            <p class="border border-black bg-gray-100 font-normal px-7 p-1 ml-20 md:ml-72 custom-box-shadow lg:ml-20">HOME FURNISHINGS</p>
                         </div>
                     </div>
                     <div class="">
@@ -63,7 +64,7 @@
                     <div class="relative">
                         <div><img src="asset/F5-Erica-Sellers-Work-00-Artio-Floor-Lamp.jpg" class="h-72 md:h-96 md:w-full lg:w-96 lg:h-48"></div>
                         <div class="absolute -bottom-2">
-                            <p class="border border-black bg-gray-100 font-normal px-5 p-1 ml-32 md:ml-64 custom-box-shadow lg:ml-32">ART</p>
+                            <p class="border border-black bg-gray-100 font-normal px-5 p-1 ml-36 md:ml-80 custom-box-shadow lg:ml-36">ART</p>
                         </div>
                     </div> 
                     <div>
@@ -87,20 +88,131 @@
                 </div>
             </div>           
 
-            <!--4-->
+            
+            <div>
+                <!--4-->
+                <div>
+                    <div class="relative">
+                        <div><img src="asset/Hyde-Hotel-Bodrum-Turkey-Yesim-Kozanli.jpg" class="h-72 mb-5 md:h-96 md:w-full lg:w-96 lg:h-48"></div>
+                        <div class="absolute -bottom-2">
+                            <p class="border border-black bg-gray-100 font-normal px-7 p-1 ml-20 md:ml-72 custom-box-shadow lg:ml-20">HOME FURNISHINGS</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="font-bold text-xl mt-8">Yves Salomon x Chapo Créations Exhibition Stuns in Paris</h1>
+                        <p class="mt-6 mb-3">French brand Yves Salomon teams up with Chapo Création to reimagine five new pieces updated in handcrafted shearling upholstery.</p>
+                    </div>        
+                </div>
+                <!--5-->
+                <div>
+                    <div class="relative">
+                        <div><img src="asset/Hyde-Hotel-Bodrum-Turkey-Yesim-Kozanli.jpg" class="h-72 mb-5 md:h-96 md:w-full lg:w-96 lg:h-48"></div>
+                        <div class="absolute -bottom-2">
+                            <p class="border border-black bg-gray-100 font-normal px-7 p-1 ml-20 md:ml-72 custom-box-shadow lg:ml-20">HOME FURNISHINGS</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="font-bold text-xl mt-8">Yves Salomon x Chapo Créations Exhibition Stuns in Paris</h1>
+                        <p class="mt-6 mb-3">French brand Yves Salomon teams up with Chapo Création to reimagine five new pieces updated in handcrafted shearling upholstery.</p>
+                    </div>        
+                </div>
+            </div>           
+        </div>
+
+    <!--mobile-->
+    <div class="lg:hidden sm:p-10 md:p-16 p-10" >
+        <div class="relative">
+            <div class="lg:hidden mb-5"><img src="asset/F5-Erica-Sellers-Work-00-Artio-Floor-Lamp.jpg" class="md:w-full"></div>
+            <div class="absolute -bottom-2">
+                <p class="border border-black bg-gray-100 font-normal px-7 p-1 ml-20 md:ml-72 custom-box-shadow ">HOME FURNISHINGS</p>
+            </div>
+        </div>
+        <div>
+            <h1 class="font-bold text-xl mt-8">Yves Salomon x Chapo Créations Exhibition Stuns in Paris</h1>
+            <p class="mt-6 mb-3">French brand Yves Salomon teams up with Chapo Création to reimagine five new pieces updated in handcrafted shearling upholstery.</p>
+        </div>
+    </div>
+
+    <!--dex&mobile-->
+    <div class="sm:p-10 md:p-16 p-10">
+
+        <!--1-->
+        <div class="flex">
             <div>
                 <div class="relative">
-                    <div><img src="asset/Hyde-Hotel-Bodrum-Turkey-Yesim-Kozanli.jpg" class="h-72 mb-5 md:h-96 md:w-full lg:w-96 lg:h-48"></div>
-                    <div class="absolute -bottom-2">
-                        <p class="border border-black bg-gray-100 font-normal px-7 p-1 ml-14 md:ml-48 custom-box-shadow lg:ml-16">HOME FURNISHINGS</p>
+                    <div><img src="asset/windmill-purifier-bamboo.jpg" class="h-72 mb-5 md:h-96 md:w-full lg:h-56 lg:w-80"></div>
+                    <div class="absolute -bottom-2 lg:hidden">
+                        <p class="border border-black bg-gray-100 font-normal px-7 p-1 ml-32 md:ml-72 custom-box-shadow">Technology</p>
                     </div>
                 </div>
-                <div>
-                    <h1 class="font-bold text-xl mt-8">Yves Salomon x Chapo Créations Exhibition Stuns in Paris</h1>
-                    <p class="mt-6 mb-3">French brand Yves Salomon teams up with Chapo Création to reimagine five new pieces updated in handcrafted shearling upholstery.</p>
-                </div>        
-            </div>         
+                <div class="lg:hidden">
+                    <h1 class="font-bold text-xl mt-8">The Windmill Air Purifier Is an Air Purifier That Actually Looks Cool</h1>
+                    <p class="mt-6 mb-3">The Windmill Air Purifier combines Japanese and Scandinavian minimalism, along with powerful HEPA filtration for cleaner air in your home.</p>
+                </div>
+            </div>
+            <div class="hidden lg:block">
+                <p class="border border-black bg-gray-100 font-normal px-6 py-1  custom-box-shadow absolute ml-5">TECHNOLOGY</p>
+            
+                <div class="absolute ml-5 mr-24 mt-4">
+                    <h1 class="font-bold text-3xl mt-8 mr-96">The Windmill Air Purifier Is an Air Purifier That Actually Looks Cool</h1>
+                    <p class="mt-6 mb-3 mr-96">The Windmill Air Purifier combines Japanese and Scandinavian minimalism, along with powerful HEPA filtration for cleaner air in your home.</p>
+                </div>
+            </div>
         </div>
+
+        <!--2-->
+        <div class="flex mt-6">
+            <div>
+                <div class="relative">
+                    <div><img src="asset/nothing-ear-open-in-case.jpg" class="h-72 mb-5 md:h-96 md:w-full lg:h-56 lg:w-80"></div>
+                    <div class="absolute -bottom-2 lg:hidden">
+                        <p class="border border-black bg-gray-100 font-normal px-7 p-1 ml-32 md:ml-72 custom-box-shadow">Technology</p>
+                    </div>
+                </div>
+                <div class="lg:hidden">
+                    <h1 class="font-bold text-xl mt-8">The Nothing Ear (open) Earbuds Aren't Just See-Through</h1>
+                    <p class="mt-6 mb-3">The Nothing Ear (open) earbuds keep Nothing's iconic transparent design while ensuring you can still hear the world around you./p>
+                </div>
+            </div>
+            <div class="hidden lg:block">
+                <p class="border border-black bg-gray-100 font-normal px-6 py-1  custom-box-shadow absolute ml-5">TECHNOLOGY</p>
+            
+                <div class="absolute ml-5 mr-24 mt-4">
+                    <h1 class="font-bold text-3xl mt-8 mr-96">The Nothing Ear (open) Earbuds Aren't Just See-Through</h1>
+                    <p class="mt-6 mb-3 mr-96">The Nothing Ear (open) earbuds keep Nothing's iconic transparent design while ensuring you can still hear the world around you.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--3-->
+        <div class="flex mt-6">
+            <div>
+                <div class="relative">
+                    <div><img src="asset/vittorio-paradiso-paolo.jpg" class="h-72 mb-5 md:h-96 md:w-full lg:h-56 lg:w-80"></div>
+                    <div class="absolute -bottom-2 lg:hidden">
+                        <p class="border border-black bg-gray-100 font-normal px-7 p-1 ml-24 md:ml-56 custom-box-shadow">INTERIOR DESIGN</p>
+                    </div>
+                </div>
+                <div class="lg:hidden">
+                    <h1 class="font-bold text-xl mt-8">Calico Wallpaper Makes Gold With Alchemy and Enchantment</h1>
+                    <p class="mt-6 mb-3">Calico Wallpaper and educator Janene Ping collaborate on two natural-dye wall mural collections: Alchemy and Enchantment.</p>
+                </div>
+            </div>
+            <div class="hidden lg:block">
+                <p class="border border-black bg-gray-100 font-normal px-6 py-1  custom-box-shadow absolute ml-5">INTERIOR DESIGN</p>
+            
+                <div class="absolute ml-5 mr-24 mt-4">
+                    <h1 class="font-bold text-3xl mt-8 mr-96">Calico Wallpaper Makes Gold With Alchemy and Enchantment</h1>
+                    <p class="mt-6 mb-3 mr-96">Calico Wallpaper and educator Janene Ping collaborate on two natural-dye wall mural collections: Alchemy and Enchantment.</p>
+                </div>
+            </div>
+        </div>
+    
+
+
+    </div>
+
+
 
 
 
